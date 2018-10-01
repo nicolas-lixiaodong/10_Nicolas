@@ -8,10 +8,10 @@ public class HomeWork001 {
 		for (int i = 1;i<=1000;i++) {
 			subtotal = calc + i;
 			pulsResult =  calc + "+" + i + "=" +  subtotal;
-			//System.out.println(pulsResult);	//ouput the formula of every step;
+			System.out.println(pulsResult);		//ouput the formula of every step;
 			calc = subtotal;
 		}
 
-	System.out.print("1+2+3+...1000= " + calc);
+		System.out.print("1+2+3+...1000= " + calc);
 	}
 }
